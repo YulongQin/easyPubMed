@@ -1094,11 +1094,11 @@ get_pubmed_ids <- function (pubmed_query_string,
     
     # Timing check: kill at 2 min
     if (try_num > 1)
-      Sys.sleep(time = 2)
+      Sys.sleep(time = 5)
     
     t_1 <- Sys.time()
     
-    if(as.numeric(difftime(t_1, t_0, units = "mins")) > 2){
+    if(as.numeric(difftime(t_1, t_0, units = "mins")) > 20){
       message("Killing the request! Something is not working. Please, try again later")
       return()
     }

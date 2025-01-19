@@ -9,3 +9,4 @@ Thanks for your patience. I hope I'll push an updated version of easyPubMed by J
 - I work on code updates in my spare time and for free. 
 - Take-home message: please, be patient. 
 
+这是一个修改版，修改了其中的间隔时间
